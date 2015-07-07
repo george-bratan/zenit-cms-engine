@@ -1,0 +1,6 @@
+body {
+	font-family: Arial;
+	font-size: 12px;
+}
+
+div.z-wysiwyg-block {border:1px dotted green; text-align:center;}

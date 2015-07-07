@@ -1,0 +1,68 @@
+
+.z-editable {
+	display:table;
+	opacity:0.5;
+}
+.z-editable:hover {	opacity:1.0;}
+
+.z-editable .z-cell {	display:table-cell;
+	border:1px dotted red;
+	cursor:pointer;
+}
+
+.z-editable .z-cell .z-title {	display:none;
+	position:absolute;
+	background:red;
+	color:white;
+	padding:2px 4px;
+	font-family:Helvetica,Arial;
+	font-size:14px;
+	line-height:14px;
+	font-weight:bold;
+	text-decoration:none;
+	font-style:italic;}
+
+.z-editable:hover .z-cell .z-title {	display:block;}
+
+.z-block, .z-slot {
+	display:table;
+	opacity:0.5;
+}
+.z-editable .z-block, .z-editable .z-slot {	opacity:1.0;}
+
+.z-block .z-cell, .z-slot .z-cell {
+	display:table-cell;
+	vertical-align:middle;
+	border:1px dotted green;
+	text-align:center;
+}
+
+
+
+input[type="button"] {
+    background: url("../images/input.button.png") repeat-x scroll 0 0 #CCCCCC;
+    border: 1px solid #999999;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 1px #FFFFFF;
+    color: #333333;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    outline: medium none;
+    padding: 3px 10px;
+    text-shadow: 1px 0 0 #FFFFFF;
+}
+
+input[type=button]:hover {
+	cursor:pointer;
+	border: 1px solid #666666;
+	background: #999999 url("../images/input.button.hover.png") repeat-x;
+}
+
+input[type="button"]:active, input.active[type="button"] {
+    background: url("../images/input.button.active.png") repeat-x scroll 0 0 #999999;
+    border: 1px solid #999999;
+    color: #FFFFFF;
+    text-shadow: 0 0 0 #999999;
+}
